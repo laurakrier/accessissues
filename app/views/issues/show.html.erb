@@ -1,0 +1,69 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Who experienced the issue:</strong>
+  <%= @issue.who_experienced %>
+</p>
+
+<p>
+  <strong>Description of the problem:</strong>
+  <%= @issue.description %>
+</p>
+
+<p>
+  <strong>Name of database/collection/resource:</strong>
+  <%= @issue.name_of_db %>
+</p>
+
+<p>
+  <strong>Problem discovered through:</strong>
+  <%= @issue.source %>
+</p>
+
+<p>
+  <strong>On or Off Campus:</strong>
+  <%= @issue.location %>
+</p>
+
+<p>
+  <strong>Mac or PC:</strong>
+  <%= @issue.os %>
+</p>
+
+<p>
+  <strong>Browser:</strong>
+  <%= @issue.browser %>
+</p>
+
+<p>
+  <strong>Patron verify:</strong>
+  <%= @issue.patron_verify %>
+</p>
+
+<p>
+  <strong>Opac error:</strong>
+  <%= @issue.opac_error %>
+</p>
+
+<p>
+  <strong>Patron name:</strong>
+  <%= @issue.patron_name %>
+</p>
+
+<p>
+  <strong>Patron email:</strong>
+  <%= @issue.patron_email %>
+</p>
+
+<p>
+  <strong>Submitted by:</strong>
+  <%= @issue.name %>
+</p>
+
+<p>
+  <strong>Submitted on:</strong>
+  <%= @issue.date.strftime("%m/%d/%Y") %>
+</p>
+
+<%= link_to 'Edit', edit_issue_path(@issue) %> |
+<%= link_to 'Back', issues_path %>

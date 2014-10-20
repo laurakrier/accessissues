@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  who_experienced: MyString
+  patron_verify: MyString
+  location: MyString
+  os: MyString
+  browser: MyString
+  opac_error: MyString
+  name_of_db: MyString
+  source: MyString
+  description: MyText
+  patron_name: MyString
+  patron_email: MyString
+  name: MyString
+  date: 2014-10-20 15:38:55
+
+two:
+  who_experienced: MyString
+  patron_verify: MyString
+  location: MyString
+  os: MyString
+  browser: MyString
+  opac_error: MyString
+  name_of_db: MyString
+  source: MyString
+  description: MyText
+  patron_name: MyString
+  patron_email: MyString
+  name: MyString
+  date: 2014-10-20 15:38:55
